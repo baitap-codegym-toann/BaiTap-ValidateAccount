@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Accout</title>
+</head>
+<body>
+<script>
+    let regexp = /^[_a-zA-Z0-9]{6,}$/;
+    while (4>3){
+        let acount = prompt("nhập tên tài khoản","");
+        if(regexp.test(acount))
+        {
+            alert("tài khoản hợp lệ");
+        }else {
+            alert("tài khoản không hợp lệ");
+        }
+    }
+</script>
+</body>
+</html>
